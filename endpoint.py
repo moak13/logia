@@ -12,6 +12,7 @@ from api import *
 
 api.add_resource(UploadFile, '/upload')
 api.add_resource(Generate, '/generate')
+api.add_resource(NumpyData, '/numpies')
 
 
 if __name__ == '__main__':
